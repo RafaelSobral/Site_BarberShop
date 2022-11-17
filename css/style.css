@@ -177,7 +177,7 @@ body {
 
 .about .experience h2 {
   font-weight: 400;
-  font-size: 40px;
+  font-size: 50px;
 }
 
 .about .experience h2:after {
@@ -264,7 +264,7 @@ body {
 }
 
 .appointment img {
-  margin: 0 auto;
+  margin: 15px auto;
   display: block; /* PARA OBDECER AO MARGIN 0 */
 }
 
@@ -317,4 +317,57 @@ body {
   margin-top: 10px;
   text-transform: uppercase;
   font-weight: bold;
+}
+
+/*===============
+      GALLERY
+=================*/
+
+.gallery {
+  padding: 100px 0;
+  background-color: var(--color-trithy);
+}
+
+.gallery h2 {
+  color: var(--color-second);
+  font-weight: 400;
+  font-size: 50px;
+  font-weight: 400;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.gallery img {
+  margin: 0 auto;
+  display: block; /* PARA OBDECER AO MARGIN 0 */
+}
+
+.gallery .gallery-wrapper {
+  display: flex;
+  flex-direction: column;
+  margin: 50px 0;
+  flex-wrap: wrap;
+  width: 1000px;
+  height: 100vh;
+}
+
+.gallery .gallery-wrapper div {
+  border: 10px solid var(--color-primary);
+  margin: 6px;
+  width: 40%;
+}
+
+.gallery .gallery-wrapper div img {
+  width: 100%;
+}
+
+/*================
+      LOCATION
+==================*/
+
+.location {
+  height: 100vh;
+  padding: 100px 0;
+  background: url(../images/bg-location.jpg);
+  background-size: cover;
 }
